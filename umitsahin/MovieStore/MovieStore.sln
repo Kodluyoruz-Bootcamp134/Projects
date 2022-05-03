@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1BE5F6DB-492B-44BC-B8DA-28525FBA8D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStore.Domain", "Core\MovieStore.Domain\MovieStore.Domain.csproj", "{E7708F81-403B-4A36-AC41-086371C137B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStore.Application", "Core\MovieStore.Application\MovieStore.Application.csproj", "{8B433B92-EC76-4EF6-85EF-D66100E42FF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4AFB495F-5516-49CD-8FDE-0E28A5E29A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStore.Infrastructure", "Infrastructure\MovieStore.Infrastructure\MovieStore.Infrastructure.csproj", "{114C19BB-0226-4DB1-90DD-0DBC9A4F23D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStore.Persistence", "Infrastructure\MovieStore.Persistence\MovieStore.Persistence.csproj", "{8DE9C197-B1F1-4D49-BEA9-913FC546C2E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{63D517DE-996B-4475-B59B-8AF9729ECFE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieStore.API", "Presentation\MovieStore.API\MovieStore.API.csproj", "{121B9B76-2B53-447A-BCC5-BB39CBB1AB2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7708F81-403B-4A36-AC41-086371C137B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7708F81-403B-4A36-AC41-086371C137B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7708F81-403B-4A36-AC41-086371C137B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7708F81-403B-4A36-AC41-086371C137B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B433B92-EC76-4EF6-85EF-D66100E42FF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B433B92-EC76-4EF6-85EF-D66100E42FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B433B92-EC76-4EF6-85EF-D66100E42FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B433B92-EC76-4EF6-85EF-D66100E42FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{114C19BB-0226-4DB1-90DD-0DBC9A4F23D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{114C19BB-0226-4DB1-90DD-0DBC9A4F23D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{114C19BB-0226-4DB1-90DD-0DBC9A4F23D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{114C19BB-0226-4DB1-90DD-0DBC9A4F23D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE9C197-B1F1-4D49-BEA9-913FC546C2E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE9C197-B1F1-4D49-BEA9-913FC546C2E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE9C197-B1F1-4D49-BEA9-913FC546C2E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE9C197-B1F1-4D49-BEA9-913FC546C2E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121B9B76-2B53-447A-BCC5-BB39CBB1AB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121B9B76-2B53-447A-BCC5-BB39CBB1AB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121B9B76-2B53-447A-BCC5-BB39CBB1AB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121B9B76-2B53-447A-BCC5-BB39CBB1AB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7708F81-403B-4A36-AC41-086371C137B5} = {1BE5F6DB-492B-44BC-B8DA-28525FBA8D13}
+		{8B433B92-EC76-4EF6-85EF-D66100E42FF6} = {1BE5F6DB-492B-44BC-B8DA-28525FBA8D13}
+		{114C19BB-0226-4DB1-90DD-0DBC9A4F23D4} = {4AFB495F-5516-49CD-8FDE-0E28A5E29A61}
+		{8DE9C197-B1F1-4D49-BEA9-913FC546C2E4} = {4AFB495F-5516-49CD-8FDE-0E28A5E29A61}
+		{121B9B76-2B53-447A-BCC5-BB39CBB1AB2B} = {63D517DE-996B-4475-B59B-8AF9729ECFE0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71FC1DFC-D7FC-4DF4-8710-5AB8254E9D7C}
+	EndGlobalSection
+EndGlobal
