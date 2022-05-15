@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Valorant.API.Filters;
 using Valorant.Business;
 using Valorant.DTO.Requests;
 using Valorant.DTO.Responses;
@@ -26,6 +27,7 @@ namespace Valorant.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [IsExist]
         public async Task<IActionResult> GetAgentById(int id)
         {
             AgentDisplayResponse agent = await service.GetAgent(id);
@@ -49,6 +51,27 @@ namespace Valorant.API.Controllers
             }
 
             return BadRequest(ModelState);
+        }
+
+        [HttpPut("{id}")]
+        [IsExist]
+        public async Task<IActionResult> Update(int id, UpdateAgentRequest request)
+        {
+            if (ModelState.IsValid)
+            {
+                await service.UpdateAgent(request);
+                return Ok();
+            }
+            return BadRequest(ModelState);
+
+        }
+
+        [HttpDelete("{id}")]
+        [IsExist]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await service.DeleteAgent(id);
+            return Ok();  
         }
     }
 }

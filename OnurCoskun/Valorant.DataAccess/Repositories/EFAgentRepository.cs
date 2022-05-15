@@ -24,6 +24,13 @@ namespace Valorant.DataAccess.Repositories
 
         }
 
+        public async Task Delete(int id)
+        {
+            var agent = await context.Agents.FirstOrDefaultAsync(x => x.Id == id);
+            context.Agents.Remove(agent);
+            await context.SaveChangesAsync();
+        }
+
         public async Task<IEnumerable<Agent>> GetAgentsByName(string name)
         {
             return await context.Agents.Where(a=> a.CodeName.Contains(name)).ToListAsync();
@@ -38,6 +45,17 @@ namespace Valorant.DataAccess.Repositories
         public async Task<Agent> GetById(int Id)
         {
            return await context.Agents.FindAsync(Id);
+        }
+
+        public async Task<bool> IsExist(int id)
+        {
+            return await context.Agents.AnyAsync(a => a.Id == id);
+        }
+
+        public async Task Update(Agent entity)
+        {
+            context.Agents.Update(entity);
+            await context.SaveChangesAsync();
         }
     }
 }

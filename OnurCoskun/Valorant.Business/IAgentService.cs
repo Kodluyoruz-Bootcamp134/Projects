@@ -15,5 +15,8 @@ namespace Valorant.Business
         Task<AgentDisplayResponse> GetAgent(int id);
         Task<IList<AgentDisplayResponse>> GetAgentByName(string key);
         Task<int> AddAgent(AddAgentRequest request);
+        Task UpdateAgent(UpdateAgentRequest request);
+        Task DeleteAgent(int id);
+        Task<bool> IsAgentExist(int id);
     }
 }

@@ -26,6 +26,11 @@ namespace Valorant.DataAccess.Repositories
             throw new NotImplementedException();
         }
 
+        public Task Delete(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public Task<IEnumerable<Agent>> GetAgentsByName(string name)
         {
             throw new NotImplementedException();
@@ -37,6 +42,16 @@ namespace Valorant.DataAccess.Repositories
         }
 
         public Task<Agent> GetById(int Id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> IsExist(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task Update(Agent entity)
         {
             throw new NotImplementedException();
         }

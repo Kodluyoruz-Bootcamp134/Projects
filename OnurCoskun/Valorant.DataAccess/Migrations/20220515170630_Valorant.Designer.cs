@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Valorant.DataAccess.Data;
 
@@ -11,9 +12,10 @@ using Valorant.DataAccess.Data;
 namespace Valorant.DataAccess.Migrations
 {
     [DbContext(typeof(ValorantDbContext))]
-    partial class ValorantDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220515170630_Valorant")]
+    partial class Valorant
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

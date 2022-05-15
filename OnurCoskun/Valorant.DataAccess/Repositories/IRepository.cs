@@ -12,5 +12,10 @@ namespace Valorant.DataAccess.Repositories
         Task<IList<T>> GetAll();
         Task<T> GetById(int Id);
         Task Add(T entity);
+        Task<bool> IsExist(int id);
+
+        Task Update(T entity);
+
+        Task Delete(int id);
     }
 }

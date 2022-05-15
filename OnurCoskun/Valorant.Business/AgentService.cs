@@ -30,6 +30,11 @@ namespace Valorant.Business
             return agent.Id;
         }
 
+        public async Task DeleteAgent(int id)
+        {
+            await agentRepository.Delete(id);
+        }
+
         public async Task<AgentDisplayResponse> GetAgent(int id)
         {
             var agent = await agentRepository.GetById(id);
@@ -51,5 +56,16 @@ namespace Valorant.Business
             return result;
         }
 
+        public async Task<bool> IsAgentExist(int id)
+        {
+            return await agentRepository.IsExist(id);
+        }
+
+        public async Task UpdateAgent(UpdateAgentRequest request)
+        {
+            var agent = mapper.Map<Agent>(request);
+            await agentRepository.Update(agent);
+
+        }
     }
 }

@@ -16,6 +16,7 @@ namespace Valorant.Business.Mapping
         {
             CreateMap<Agent, AgentDisplayResponse>();
             CreateMap<AddAgentRequest, Agent>();
+            CreateMap<UpdateAgentRequest, Agent>();
         }
     }
 }
