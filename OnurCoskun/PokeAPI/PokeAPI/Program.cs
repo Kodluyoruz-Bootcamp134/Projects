@@ -18,7 +18,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped(typeof(IsExistOperation<>));
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
-
+builder.Services.AddScoped<IClassService, ClassService>();
+builder.Services.AddScoped<IClassRepository, ClassRepository>();
 builder.Services.AddScoped<IPokemonService, PokemonService>();
 builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
 builder.Services.AddAutoMapper(typeof(MapProfile));

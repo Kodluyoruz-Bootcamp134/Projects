@@ -18,13 +18,6 @@ namespace PokeAPI.Controllers
             service = pokemonService;
         }
 
-        //[HttpGet]
-        //public async Task<IActionResult> GetPokemons()
-        //{
-        //    var pokemons = await service.GetPokemons();
-        //    return Ok(pokemons);
-        //}
-
         [HttpGet]
         public async Task<IActionResult> GetPokemonWithClass()
         {
@@ -63,7 +56,7 @@ namespace PokeAPI.Controllers
         [ServiceFilter(typeof(IsExistOperation<Pokemon>))]
         public async Task<IActionResult> Update(UpdatePokemonRequest request)
         {
-            if (ModelState.IsValid)
+            if(ModelState.IsValid)
             {
                 await service.UpdatePokemon(request);
                 return Ok();

@@ -12,6 +12,8 @@ namespace Business.Mapper
             CreateMap<AddPokemonRequest, Pokemon>();
             CreateMap<Pokemon, PokemonDisplayResponses>();
             CreateMap<UpdatePokemonRequest, Pokemon>();
+            CreateMap<Class, ClassDisplayResponses>();
+            CreateMap<AddClassRequest, Class>();
         }
     }
 }

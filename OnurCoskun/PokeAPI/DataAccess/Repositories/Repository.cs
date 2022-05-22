@@ -49,5 +49,6 @@ namespace DataAccess.Repositories
         {
             return await table.AnyAsync(predicate);
         }
+
     }
 }
