@@ -19,9 +19,13 @@ namespace Business
 
         public async Task<int> AddPokemon(AddPokemonRequest request)
         {
-            var pokemon = mapper.Map<Pokemon>(request);
-            await pokemonRepository.Add(pokemon);
-            return pokemon.Id;
+            if (await pokemonRepository.Any(x=> x.Name == request.Name))
+            {
+                var pokemon = mapper.Map<Pokemon>(request);
+                await pokemonRepository.Add(pokemon);
+                return pokemon.Id;
+            }
+            return 0;
         }
 
         public async Task DeletePokemon(int id)

@@ -4,6 +4,7 @@ using DataAccess.Data;
 using DataAccess.Repositories;
 using Microsoft.EntityFrameworkCore;
 using PokeAPI.Filters;
+using PokeAPI.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -22,6 +23,8 @@ builder.Services.AddScoped<IClassService, ClassService>();
 builder.Services.AddScoped<IClassRepository, ClassRepository>();
 builder.Services.AddScoped<IPokemonService, PokemonService>();
 builder.Services.AddScoped<IPokemonRepository, PokemonRepository>();
+builder.Services.AddScoped<IUserRepository, TempUserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddAutoMapper(typeof(MapProfile));
 builder.Services.AddDbContext<PokeDbContext>(options =>
 {
@@ -31,6 +34,9 @@ builder.Services.AddDbContext<PokeDbContext>(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+
+
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -38,6 +44,11 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+//app.UseMiddleware<RedirectMW>();
+
+//app.UseStaticFiles();
+app.UseAuthentication();
 
 app.UseAuthorization();
 
