@@ -1,0 +1,17 @@
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\bin\Debug\net6.0\Characters.Dal.deps.json
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\bin\Debug\net6.0\Characters.Dal.dll
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\bin\Debug\net6.0\Characters.Dal.pdb
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\bin\Debug\net6.0\Characters.Entities.dll
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\bin\Debug\net6.0\Characters.Entities.pdb
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\Characters.Dal.csproj.AssemblyReference.cache
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\Characters.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\Characters.Dal.AssemblyInfoInputs.cache
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\Characters.Dal.AssemblyInfo.cs
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\Characters.Dal.csproj.CoreCompileInputs.cache
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\Characters.Dal.csproj.CopyComplete
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\Characters.Dal.dll
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\refint\Characters.Dal.dll
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\Characters.Dal.pdb
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\ref\Characters.Dal.dll
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\bin\Debug\net6.0\Characters.Dal.runtimeconfig.json
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.Dal\obj\Debug\net6.0\Characters.Dal.genruntimeconfig.cache
