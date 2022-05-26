@@ -1,1 +1,0 @@
-Kodluyoruz Kodla Kariyerine Başla Programı için yaptığım proje ödevim.
