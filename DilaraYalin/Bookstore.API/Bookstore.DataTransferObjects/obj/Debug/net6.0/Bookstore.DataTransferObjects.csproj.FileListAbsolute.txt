@@ -1,0 +1,12 @@
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\bin\Debug\net6.0\Bookstore.DataTransferObjects.deps.json
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\bin\Debug\net6.0\Bookstore.DataTransferObjects.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\bin\Debug\net6.0\Bookstore.DataTransferObjects.pdb
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\obj\Debug\net6.0\Bookstore.DataTransferObjects.csproj.AssemblyReference.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\obj\Debug\net6.0\Bookstore.DataTransferObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\obj\Debug\net6.0\Bookstore.DataTransferObjects.AssemblyInfoInputs.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\obj\Debug\net6.0\Bookstore.DataTransferObjects.AssemblyInfo.cs
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\obj\Debug\net6.0\Bookstore.DataTransferObjects.csproj.CoreCompileInputs.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\obj\Debug\net6.0\Bookstore.DataTransferObjects.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\obj\Debug\net6.0\refint\Bookstore.DataTransferObjects.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\obj\Debug\net6.0\Bookstore.DataTransferObjects.pdb
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataTransferObjects\obj\Debug\net6.0\ref\Bookstore.DataTransferObjects.dll
