@@ -1,0 +1,17 @@
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\bin\Debug\net6.0\Bookstore.DataAccess.deps.json
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\bin\Debug\net6.0\Bookstore.DataAccess.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\bin\Debug\net6.0\Bookstore.DataAccess.pdb
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\bin\Debug\net6.0\Bookstore.Entities.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\bin\Debug\net6.0\Bookstore.Entities.pdb
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\Bookstore.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\Bookstore.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\Bookstore.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\Bookstore.DataAccess.AssemblyInfo.cs
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\Bookstore.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\Bookstore.DataAccess.csproj.CopyComplete
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\Bookstore.DataAccess.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\refint\Bookstore.DataAccess.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\Bookstore.DataAccess.pdb
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\ref\Bookstore.DataAccess.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\bin\Debug\net6.0\Bookstore.DataAccess.runtimeconfig.json
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.DataAccess\obj\Debug\net6.0\Bookstore.DataAccess.genruntimeconfig.cache
