@@ -1,0 +1,14 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "author": {
+    "name": "Abdullah Halit Korucuoglu",
+    "url": "https://github.com/korucuoglu"
+  },
+  "license": "MIT",
+  "scripts": {
+    "db-migrate": "cd ./src/Api/Infrastructure/Base.Api.Persistence/ && dotnet ef migrations add --startup-project=../../Presentation/Base.Api",
+    "db-update": "cd ./src/Api/Infrastructure/Base.Api.Persistence/ && dotnet ef database update --startup-project=../../Presentation/Base.Api",
+    "watch": "cd ./src/Api/Presentation/Base.Api/ && dotnet watch run"
+  }
+}

@@ -1,0 +1,5 @@
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Book.Business\obj\Debug\net6.0\Bookstore.Business.csproj.AssemblyReference.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Book.Business\obj\Debug\net6.0\Bookstore.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Book.Business\obj\Debug\net6.0\Bookstore.Business.AssemblyInfoInputs.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Book.Business\obj\Debug\net6.0\Bookstore.Business.AssemblyInfo.cs
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Book.Business\obj\Debug\net6.0\Bookstore.Business.csproj.CoreCompileInputs.cache

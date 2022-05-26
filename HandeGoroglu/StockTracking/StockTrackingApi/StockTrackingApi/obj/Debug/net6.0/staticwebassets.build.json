@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HKmB9ejL8PZZG/ZP2vEqlzt1VcyV0FL+g0CnZ9UAIrI=",
+  "Source": "StockTrackingApi",
+  "BasePath": "_content/StockTrackingApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

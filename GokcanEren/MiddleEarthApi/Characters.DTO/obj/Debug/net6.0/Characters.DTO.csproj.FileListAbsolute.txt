@@ -1,0 +1,12 @@
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\bin\Debug\net6.0\Characters.DTO.deps.json
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\bin\Debug\net6.0\Characters.DTO.dll
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\bin\Debug\net6.0\Characters.DTO.pdb
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\obj\Debug\net6.0\Characters.DTO.csproj.AssemblyReference.cache
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\obj\Debug\net6.0\Characters.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\obj\Debug\net6.0\Characters.DTO.AssemblyInfoInputs.cache
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\obj\Debug\net6.0\Characters.DTO.AssemblyInfo.cs
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\obj\Debug\net6.0\Characters.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\obj\Debug\net6.0\Characters.DTO.dll
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\obj\Debug\net6.0\refint\Characters.DTO.dll
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\obj\Debug\net6.0\Characters.DTO.pdb
+C:\Users\Gok\Desktop\c# console proje\MiddleEarthApi\Characters.DTO\obj\Debug\net6.0\ref\Characters.DTO.dll

@@ -1,0 +1,12 @@
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\bin\Debug\net6.0\Bookstore.Entities.deps.json
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\bin\Debug\net6.0\Bookstore.Entities.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\bin\Debug\net6.0\Bookstore.Entities.pdb
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\obj\Debug\net6.0\Bookstore.Entities.csproj.AssemblyReference.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\obj\Debug\net6.0\Bookstore.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\obj\Debug\net6.0\Bookstore.Entities.AssemblyInfoInputs.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\obj\Debug\net6.0\Bookstore.Entities.AssemblyInfo.cs
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\obj\Debug\net6.0\Bookstore.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\obj\Debug\net6.0\Bookstore.Entities.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\obj\Debug\net6.0\refint\Bookstore.Entities.dll
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\obj\Debug\net6.0\Bookstore.Entities.pdb
+C:\Users\Dilara YALIN\source\repos\Kodluyoruz-Bootcamp-Tasks\Bookstore.API\Bookstore.Entities\obj\Debug\net6.0\ref\Bookstore.Entities.dll
