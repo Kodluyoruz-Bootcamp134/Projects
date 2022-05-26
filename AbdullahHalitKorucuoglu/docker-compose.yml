@@ -1,0 +1,52 @@
+version: "3.8"
+services:
+  s_postgres:
+    image: postgres
+    container_name: c_postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    volumes:
+      - volume_postgres:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=sa
+      - POSTGRES_PASSWORD=AbcUser1234*
+      - POSTGRES_DB=anonfiles
+  s_redis:
+    image: redis 
+    container_name: c_redis
+    restart: always
+    ports:
+      - "6379:6379"
+  s_rabbitmq:
+    image: rabbitmq:3.9.13-management
+    container_name: c_rabbitmq
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  s_api:
+    image: image_api
+    build:
+      context: .
+      dockerfile: src/Api/Presentation/Base.Api/Dockerfile
+    container_name: c_api
+    environment:
+      - "ConnectionStrings:DefaultConnection=User ID=sa; Password=AbcUser1234*; Server=s_postgres; Port=5432;Database=db_base;Integrated Security=true;Pooling=true"
+      - RedisSettings:Port=6379
+      - RedisSettings:Host=s_redis
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "5000:80"
+    depends_on:
+      - s_postgres
+      - s_redis
+  s_projections_user:
+   image: image_projections_user
+   build:
+    context: .
+    dockerfile: src/Projections/Base.Projections.UserService/Dockerfile
+   container_name: c_projections_user
+   restart: always
+volumes:
+  volume_postgres:
