@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using MovieStore.DTO.Request.Director;
+using MovieStore.DTO.Request.Genre;
 using MovieStore.DTO.Request.Movie;
 using MovieStore.DTO.Response.Director;
 using MovieStore.DTO.Response.Genre;
@@ -20,8 +22,13 @@ public class MapProfile:Profile
 
         CreateMap<Director, GetDirectorsDto>();
         CreateMap<Director, GetDirectorByIdDto>();
+        CreateMap<AddDirectorDto,Director>();
+        CreateMap<UpdateDirectorDto, Director>();
+
 
         CreateMap<Genre, GetGenresDto>();
         CreateMap<Genre,GetGenreByIdDto>();
+        CreateMap<AddGenreDto,Genre>();
+        CreateMap<UpdateGenreDto,Genre>();
     }
 }

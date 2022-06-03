@@ -6,9 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Request\Genre\" />
-    <Folder Include="Request\Director\" />
-  </ItemGroup>
-
 </Project>

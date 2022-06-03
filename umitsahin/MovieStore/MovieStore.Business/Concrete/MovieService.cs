@@ -44,6 +44,8 @@ public class MovieService : IMovieService
     }
     public async Task<GetMovieByIdDto> GetMovieDetailById(int id)
     {
+        
+
         return await _repository.GetMovieDetailById(id);
     }
 
@@ -56,7 +58,7 @@ public class MovieService : IMovieService
 
     public async Task<bool> IsMovieExists(int id)
     {
-        return await _repository.IsExists(id);
+        return await _repository.AnyAsync(id);
     }
 
     public async Task UpdateMovie(UpdateMovieDto updateMovieDto)

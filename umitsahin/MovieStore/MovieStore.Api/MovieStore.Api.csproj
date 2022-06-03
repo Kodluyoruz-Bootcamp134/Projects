@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\MovieStore.Business\MovieStore.Business.csproj" />
-    <ProjectReference Include="..\MovieStore.DataAccess\MovieStore.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

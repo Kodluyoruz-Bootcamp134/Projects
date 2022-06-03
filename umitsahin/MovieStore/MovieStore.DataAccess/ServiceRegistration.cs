@@ -15,21 +15,11 @@ namespace MovieStore.DataAccess;
 public static class ServiceRegistration
 {
     
-    public static void AddDataAccessServices(this IServiceCollection services, IConfiguration configuration)
+    public static void AddDataAccessServices(this IServiceCollection services)
     {
         
         services.AddScoped<IMovieRepository, MovieRepository>();
         services.AddScoped<IGenreRepository, GenreRepository>();
         services.AddScoped<IDirectorRepository, DirectorRepository>();
-        services.AddDbContext<AppDbContext>(opt =>
-        {
-            opt.EnableSensitiveDataLogging(true);
-            opt.UseSqlServer(configuration.GetConnectionString("db"),
-                 configure =>
-                 {
-                     configure.MigrationsAssembly("Base.Api.Persistence");
-                 });
-        });
-
     }
 }

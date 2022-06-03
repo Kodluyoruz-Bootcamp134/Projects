@@ -43,7 +43,7 @@ namespace MovieStore.DataAccess.Repositories.Concrete
         return await _context.Set<T>().FindAsync(id);
         }
 
-        public async Task<bool> IsExists(int id)
+        public async Task<bool> AnyAsync(int id)
         {
             return await _context.Set<T>().AnyAsync(x => x.Id == id);
         }

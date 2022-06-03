@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MovieStore.Api.Filters;
 using MovieStore.Business.Abstract;
+using MovieStore.DTO.Request.Genre;
+using MovieStore.Entities;
 
 namespace MovieStore.Api.Controllers
 {
@@ -16,7 +19,7 @@ namespace MovieStore.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetGenre()
+        public async Task<IActionResult> GetGenres()
         {
             var result = await _service.GetAllAsync();
             return Ok(result);
@@ -28,5 +31,27 @@ namespace MovieStore.Api.Controllers
             return Ok(genre);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> AddGenre(AddGenreDto addGenreDto)
+        {
+            var genreId = await _service.AddGenre(addGenreDto);
+            return Ok(genreId);
+        }
+        [HttpPut("{id}")]
+        [ServiceFilter(typeof(NotFoundFilter<Genre>))]
+        public async Task<IActionResult> UpdateMovie(int id, UpdateGenreDto updateGenreDto)
+        {
+            await _service.UpdateGenre(updateGenreDto);
+            return Ok();
+
+        }
+
+        [HttpDelete("{id}")]
+        [ServiceFilter(typeof(NotFoundFilter<Movie>))]
+        public async Task<IActionResult> DeleteMovie(int id)
+        {
+            await _service.DeleteGenre(id);
+            return Ok();
+        }
     }
 }
